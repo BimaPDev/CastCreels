@@ -53,6 +53,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/support" className="hover:text-amber-deep dark:hover:text-amber transition-colors duration-200">
+                  Support
+                </Link>
+              </li>
+              <li>
                 <a
                   href={`mailto:${SITE.email}`}
                   className="hover:text-amber-deep dark:hover:text-amber transition-colors duration-200"

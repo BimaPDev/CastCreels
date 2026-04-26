@@ -6,6 +6,7 @@ generated with Vite + React + TypeScript + Tailwind, prerendered to HTML for SEO
 ## Routes
 
 - `/` — Landing page (hero, features, how-it-works, CTA)
+- `/support` — Support and contact page
 - `/privacy` — Privacy Policy (scaffolded with `{{TODO}}` placeholders)
 - `/terms` — Terms of Service (scaffolded with `{{TODO}}` placeholders)
 

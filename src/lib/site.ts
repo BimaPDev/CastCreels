@@ -9,7 +9,7 @@ export const SITE = {
   url: 'https://castcreel.com',
   ogImage: '/og-image.png',
   twitter: '@castcreel',
-  email: 'hello@castcreel.com',
+  email: 'castcreel@gmail.com',
   appStoreUrl: 'https://apps.apple.com/app/castcreel/id000000000',
   playStoreUrl: 'https://play.google.com/store/apps/details?id=com.castcreel',
   waitlistEndpoint: '', // Set to your ESP form endpoint to wire up real signup.

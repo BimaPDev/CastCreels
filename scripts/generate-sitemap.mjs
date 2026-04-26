@@ -2,7 +2,7 @@ import { writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const SITE_URL = process.env.SITE_URL || 'https://castcreel.com';
-const ROUTES = ['/', '/privacy', '/terms'];
+const ROUTES = ['/', '/support', '/privacy', '/terms'];
 const today = new Date().toISOString().slice(0, 10);
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
