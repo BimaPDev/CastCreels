@@ -20,4 +20,7 @@ export default defineConfig({
     sourcemap: false,
     cssCodeSplit: true,
   },
+  preview: {
+    allowedHosts: ['castcreel.com'],
+  },
 });
