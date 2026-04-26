@@ -21,6 +21,7 @@ export default defineConfig({
     cssCodeSplit: true,
   },
   preview: {
-    allowedHosts: ['castcreel.com'],
+    // Allow reverse-proxy host headers (Coolify/Traefik health checks and domain aliases).
+    allowedHosts: true,
   },
 });
