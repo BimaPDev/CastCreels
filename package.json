@@ -1,0 +1,38 @@
+{
+  "name": "@castcreel/landing-page",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CastCreel marketing site (landing, privacy, terms) — Vite + React + TS + Tailwind, SSG-prerendered.",
+  "scripts": {
+    "dev": "vite-react-ssg dev --host",
+    "build": "vite-react-ssg build && node scripts/generate-sitemap.mjs",
+    "preview": "vite preview --host",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-react-ssg": "^0.9.0"
+  }
+}
