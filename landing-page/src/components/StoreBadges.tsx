@@ -23,7 +23,7 @@ export default function StoreBadges({ variant = "row", className }: Props) {
       >
         <AppStoreBadge className="h-12 w-auto" />
       </a>
-      <a
+      {/* <a
         href={SITE.playStoreUrl}
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ export default function StoreBadges({ variant = "row", className }: Props) {
         aria-label="Get CastCreel on Google Play"
       >
         <PlayStoreBadge className="h-12 w-auto" />
-      </a>
+      </a> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ import WaveDivider from "../icons/WaveDivider";
 export default function CtaStrip() {
   return (
     <section id="get-the-app" className="px-5 pb-24 sm:px-8">
-      <div className="mx-auto w-full max-w-6xl overflow-hidden rounded-3xl border border-ink/10 bg-ink/20 p-10 text-cream shadow-raised sm:p-14 lg:p-16 dark:border-cream/10">
+      <div className="mx-auto w-full max-w-6xl overflow-hidden rounded-3xl border border-ink/10 bg-ink/20 p-6 text-cream shadow-raised sm:p-14 lg:p-16 dark:border-cream/10">
         <div
           className="paper-grain pointer-events-none absolute inset-0 -z-10 opacity-50"
           aria-hidden="true"
@@ -22,7 +22,7 @@ export default function CtaStrip() {
             </p>
           </div>
 
-          <div className="flex flex-col items-start gap-6">
+          <div className="flex flex-col items-center gap-6">
             <StoreBadges />
             <div className="w-full">
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-cream/60">

@@ -47,7 +47,7 @@ export default function HowItWorks() {
         {steps.map(({ num, icon: Icon, title, body }) => (
           <li
             key={num}
-            className="relative rounded-xl border border-ink/10 bg-card p-7   dark:border-cream/10 dark:bg-carddark"
+            className="relative rounded-xl border border-ink/10 bg-card p-7  dark:border-cream/10 dark:bg-carddark"
           >
             <span
               className="font-display text-6xl leading-none text-amber/40 dark:text-amber/35"
@@ -55,9 +55,10 @@ export default function HowItWorks() {
             >
               {num}
             </span>
-            <div className="mt-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-ink text-cream dark:bg-cream/90 dark:text-ink">
+            <div className="mt-3 inline-flex h-10 w-10 ml-5 items-center justify-center rounded-lg bg-ink text-cream dark:bg-cream/90 dark:text-ink">
               <Icon className="h-5 w-5 bg-" aria-hidden="true" />
             </div>
+
             <h3 className="mt-4 font-display text-2xl text-ink dark:text-cream">
               {title}
             </h3>

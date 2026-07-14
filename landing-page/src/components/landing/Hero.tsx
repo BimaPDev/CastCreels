@@ -1,8 +1,8 @@
-import { ArrowRight } from 'lucide-react';
-import StoreBadges from '../StoreBadges';
-import WaitlistForm from '../WaitlistForm';
-import WaveDivider from '../icons/WaveDivider';
-import PhoneMock from './PhoneMock';
+import { ArrowRight } from "lucide-react";
+import StoreBadges from "../StoreBadges";
+import WaitlistForm from "../WaitlistForm";
+import WaveDivider from "../icons/WaveDivider";
+import PhoneMock from "./PhoneMock";
 
 export default function Hero() {
   return (
@@ -15,23 +15,32 @@ export default function Hero() {
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-5 pb-24 sm:px-8 lg:grid-cols-12 lg:gap-16 lg:pb-32">
         <div className="lg:col-span-7 animate-fade-up">
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-card/80 px-3.5 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-amber-deep dark:border-cream/15 dark:bg-carddark/80 dark:text-amber">
-            <span className="h-1.5 w-1.5 rounded-full bg-amber" aria-hidden="true" />
+            <span
+              className="h-1.5 w-1.5 rounded-full bg-amber"
+              aria-hidden="true"
+            />
             <span>Catch</span>
-            <span className="text-ink/30 dark:text-cream/30" aria-hidden="true">·</span>
+            <span className="text-ink/30 dark:text-cream/30" aria-hidden="true">
+              ·
+            </span>
             <span className="text-teal">Score</span>
-            <span className="text-ink/30 dark:text-cream/30" aria-hidden="true">·</span>
+            <span className="text-ink/30 dark:text-cream/30" aria-hidden="true">
+              ·
+            </span>
             <span className="text-sand">Connect</span>
           </p>
           <h1 className="font-display text-[44px] leading-[1.02] tracking-tight text-ink sm:text-6xl lg:text-7xl dark:text-cream">
             Snap your catch.
-            <span className="block italic text-amber-deep dark:text-amber">We'll do the rest.</span>
+            <span className="block italic text-amber-deep dark:text-amber">
+              We'll do the rest.
+            </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/75 dark:text-cream/80">
-            CastCreel identifies the species, measures the size, and captures the conditions —
-            then learns when and where you'll bite next.
+            CastCreel identifies the species, measures the size, and captures
+            the conditions — then learns when and where you'll bite next.
           </p>
 
-          <div className="mt-8 flex flex-col gap-6">
+          <div className="mt-8 flex flex-col items-center gap-6">
             <StoreBadges />
             <div className="flex items-center gap-3 text-xs uppercase tracking-[0.18em] text-ink/55 dark:text-cream/55">
               <WaveDivider className="w-12" />
